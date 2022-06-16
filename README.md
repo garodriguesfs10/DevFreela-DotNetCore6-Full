@@ -29,4 +29,4 @@ Atenção: o DevFreela é apenas um projeto de aprimoramento nas tecnologias/con
  - Azure
  
 
-*Gabriel Rodrigues, 2021*
+*Gabriel Rodrigues, 2022*
