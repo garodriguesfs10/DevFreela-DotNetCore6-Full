@@ -21,7 +21,7 @@ namespace DevFreela.UnitTests.Application.Commands
 
             var createProjectCommand = new CreateProjectCommand
             {
-                Title = "Titulo de Teste",
+                Title = "Titulo de Teste For GitRepo",
                 Description = "Uma descrição Daora",
                 TotalCost = 50000,
                 IdClient = 1,
