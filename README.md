@@ -18,6 +18,7 @@ O DevFreela é uma plataforma para cadastro e contratação de serviços de Free
 Atenção: o DevFreela é apenas um projeto de aprimoramento nas tecnologias/conceitos usados neste projeto:
 
  - ASP. NET Core 6
+ - MicroServiço Sincrono - HttpClient e Assincrono - RabbitMQ
  - DDD
  - Clean Architecture - Arquitetura Limpa
  - API REST
@@ -26,7 +27,7 @@ Atenção: o DevFreela é apenas um projeto de aprimoramento nas tecnologias/con
  - CQRS
  - FluentValidation
  - Testes unitários
- - Azure
+ - Azure DevOps
  
 
 *Gabriel Rodrigues, 2022*
