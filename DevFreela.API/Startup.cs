@@ -1,6 +1,7 @@
 using DevFreela.API.Extensions;
 using DevFreela.API.Filters;
 using DevFreela.Application.Commands.CreateProject;
+using DevFreela.Application.Consumers;
 using DevFreela.Application.Validators;
 using DevFreela.Core.Repositories;
 using DevFreela.Core.Services;
@@ -40,6 +41,7 @@ namespace DevFreela.API
             services.AddDbContext<DevFreelaDbContext>(options => options.UseSqlServer(connectionString));
             //services.AddDbContext<DevFreelaDbContext>(options => options.UseInMemoryDatabase("Devfreela"));
 
+            services.AddHostedService<PaymentApprovedConsumer>();
             services.AddHttpClient();
 
             services.AddInfrastructure();
